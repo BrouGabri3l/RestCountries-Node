@@ -14,7 +14,7 @@ const columnStyle: IStyle = {
     size: 12,
     color: { argb: "808080" },
   },
-  alignment: { horizontal: "center" },
+  alignment: { horizontal: "left" },
 };
 
 const titleStyle: IStyle = {
@@ -70,6 +70,5 @@ export const createExcel = async (data: any[]) => {
   title.style = titleStyle;
 
   columns.font = columnStyle.font;
-  columns.alignment = columnStyle.alignment;
   await workbook.xlsx.writeFile(path ?? "");
 };
