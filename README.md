@@ -22,5 +22,7 @@ to get excel, open your browser and paste this link, if you change the port in *
   http://localhost:8080/api/countries
 ```
 or open **Postman** and click in ***SEND AND DOWNLOAD*** d with the url pasted and method setted to ***GET***
-
 ![POSTMAN](Postman.png)
+when you access the api endpoint and download the excel file your console will be like this
+![TERMINAL](terminal.png)
+
